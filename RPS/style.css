@@ -1,0 +1,40 @@
+#board {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	border: 3px solid black;
+}
+
+.square {
+	background-color: #ddd;
+	border: 1px solid black;
+	font-size: 5em;
+	text-align: center;
+	line-height: 1;
+	cursor: pointer;
+}
+
+.square:hover {
+	background-color: #eee;
+}
+
+.x {
+	color: blue;
+}
+
+.o {
+	color: red;
+}
+
+#message {
+	text-align: center;
+	font-size: 2em;
+}
+
+#reset {
+	display: block;
+	margin: 0 auto;
+}
